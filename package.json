@@ -1,0 +1,25 @@
+{
+  "name": "stathat-dumper",
+  "version": "1.0.0",
+  "description": "Consumer for the StatHat Export API.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rentjuice/stathat-dumper.git"
+  },
+  "keywords": [
+    "stathat"
+  ],
+  "author": "Jon Ursenbach <jon@ursenba.ch>",
+  "license": "MIT",
+  "dependencies": {
+    "request": "^2.47.0"
+  },
+  "devDependencies": {
+    "gulp-jshint": "^1.6.2",
+    "gulp": "^3.7.0"
+  },
+  "engines": {
+    "node": ">= 0.10.0"
+  }
+}
