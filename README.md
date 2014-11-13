@@ -1,4 +1,4 @@
-# stathat-dumper · a consumer for the StatHat Export API
+# stathat-dumper
 
 [![NPM](https://nodei.co/npm/stathat-dumper.png)](https://nodei.co/npm/stathat-dumper/)
 
@@ -13,9 +13,9 @@ api.get('123ABc', '1w3h', function (err, data) {
 ```
 
 ```javascript
-[ { name: 'Goa'uld killed',
+[ { name: 'Goa\'uld killed',
     timeframe: '1 week @ 1 day',
-    points: [ 
+    points: [
       { time: 1415152860, value: 82.5333333332 },
       { time: 1415239260, value: 4.8 },
       { time: 1415325660, value: 214 },
@@ -93,9 +93,9 @@ api.get('123ABc', '1w3h', function (err, data) {
 ```
 
 ```javascript
-[ { name: 'Goa'uld killed',
+[ { name: 'Goa\'uld killed',
     timeframe: '1 week @ 1 day',
-    points: [ 
+    points: [
       { time: 1415152860, value: 82.5333333332 },
       { time: 1415239260, value: 4.8 },
       { time: 1415325660, value: 214 },
@@ -122,7 +122,7 @@ api.getSummary('456DEf', '7d', function (err, data) {
 ```javascript
 [ { name: 'ZPM Levels',
     timeframe: '1 week @ 1 day',
-    points: 
+    points:
      [ { time: 1415232000, value: 0 },
        { time: 1415318400, value: 0 },
        { time: 1415404800, value: 0 },
@@ -135,4 +135,4 @@ api.getSummary('456DEf', '7d', function (err, data) {
 
 ## License
 
-MIT 
+MIT
